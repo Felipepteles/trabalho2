@@ -1,44 +1,66 @@
 [
   {
+    "nome": "Egeo Hit Desodorante",
+    "foto": "https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_800/v1/imagens/products/B48700/Egeo-Des-Col-Hit-90Ml-V2-B48700_.jpg",
+    "preco": "86.90",
+    "descricao": "O Egeo Hit Desodorante Colônia não tem rótulos, pode ser usado por quem quiser, carrega a energia vibrante do rolê do momento. A incrível mistura de Frutas Amarelas e Madeiras Cremosas, trazem para a cena uma fragrância irresistível e cheia de brilho.",
+    "like": 3,
+    "dislike": 1
+  },
+  {
+    "nome": "Boticollection Thaty",
+    "foto": "https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_800/v1/imagens/product/B19734/1f145b19-f963-48be-957a-89094ef3877c-bot-19734-thaty-colonia-frontal-01.jpg",
+    "preco": "71.90",
+    "descricao": "Com fragrância Lavanda Aromática, Thaty faz parte de Boticollection, marca que reúne as fragrâncias clássicas da perfumaria do Boticário.  ",
+    "like": 0,
+    "dislike": 0
+  },
+  {
     "nome": "214 African Sunrise Floral Frutal Eau De Parfum",
     "foto": "https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_800/v1/imagens/product/B54657/049e545a-0e39-4eff-b849-3848f942da21-bot-54657-botica-214-african-sunrise-perfume-edp-frontal-01.jpg",
     "preco": "214.90",
     "descricao": "Botica 214 acredita que lugares inexplorados tem o poder de criar situações únicas para se viver a dois. Por isso, aterrissa na África e nos transporta para uma experiência única de passeio de balão ao amanhecer pela savana Africana.",
-    "nota": 0
+    "like": 23,
+    "dislike": 18
   },
   {
     "nome": "Elysée Eau De Parfum",
     "foto": "https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_800/v1/imagens/product/B53518/d9fc7260-1684-43c6-a7de-ce33c4020fa9-bot-53518-elysee-edp-perfume-frontal-01.jpg",
     "preco": "294.90",
     "descricao": "Exclusivo. Assim é  Elysée Eau de Parfum. Única, possui uma embalagem extremamente sofisticada que remete a uma joia. A sua fragrância feminina contém matérias-primas de alta qualidade e riqueza como a Mandarina Orpur, que remete a extrema sofisticação da família olfativa Chypre. ",
-    "nota": 0
+    "like": 20,
+    "dislike": 2
   },
   {
     "nome": "Zaad Expedition Eau De Parfum",
     "foto": "https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_800/v1/imagens/products/B46898/ZAAD-EDP-EXPEDITION-95ml_B46898.jpg",
     "preco": "247.90",
     "descricao": "Zaad Expedition te instiga a explorar o mundo, para você viver tudo que a vida te reserva.Por isso, Zaad partiu para uma expedição até a ilha de Java, em busca do Vetiver, raiz responsável por uma assinatura amadeirada sofisticada e fresca, que, combinada a notas cítricas marcantes, criou uma fragrância única.",
-    "nota": 0
+    "like": 6,
+    "dislike": 0
   },
   {
     "nome": "Lily Eau de Parfum",
     "foto": "https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_800/v1/imagens/products/B77524/Lily-Eau-de-Parfum-75ml-B77524_.jpg",
     "preco": "299.99",
     "descricao": "A fragrância que você ama está com a nova embalagem linda, cheia de charme e que fica perfeita para enfeitar a penteadeira e perfumar a pele com sua fragrância favorita sempre que quiser. Lily Eau de Parfum faz parte de uma das marcas de sucesso da perfumaria do Boticário. ",
-    "nota": 0
+    "like": 1,
+    "dislike": 1
   },
   {
     "nome": "Floratta Red Desodorante Colônia",
     "foto": "https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_800/v1/imagens/products/B75792/Floratta-Red-Desodorante-Colonia-_B75792_.jpg",
     "preco": "149.90",
     "descricao": "A fragrância feminina do Floratta Red Desodorante Colônia é inspirada na flor da Maçã de Vermont.A fragrância traz a delicadeza da flor da maçã e a doçura do fruto. Além de notas de saída de Frutas Vermelhas e Laranja.",
-    "nota": 0
+    "like": 0,
+    "dislike": 0
   },
   {
     "nome": "Her Code Eau De Parfum",
     "foto": "https://res.cloudinary.com/beleza-na-web/image/upload/w_1500,f_auto,fl_progressive,q_auto:eco,w_800/v1/imagens/product/B50022/e96941b2-24cc-4117-ba35-42b12a2d919a-bot-50022-her-code-perfume-edp-perfume-frontal-01.jpg",
     "preco": "229.90",
     "descricao": "Her Code Eau De Parfum te incentiva a se libertar e buscar o seu próprio prazer. Fragrância sensual, quente e viciante, desperta uma vontade incontrolável de conectar-se consigo mesma.Este eau de parfum feminino traz o acorde olfativo Código Secreto: único e instigante, uma combinação de ingredientes que despertam prazer, sensualidade e mistério.",
-    "nota": 0
+    "like": 0,
+    "dislike": 0
   }
 ]

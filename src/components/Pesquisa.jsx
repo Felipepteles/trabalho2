@@ -22,10 +22,6 @@ function Pesquisa() {
     }
   }
 
-  function refresh(){
-    window.location.reload();
-  }
-
   const listaProduto = produtos.map(produto => (
     <Produto key={produto.nome} produto={produto} produtos={produtos} setProdutos={setProdutos} />
   ))
@@ -42,7 +38,7 @@ function Pesquisa() {
             <input  type="text" required placeholder="Nome do produto" className="input__busca" {...register("palavra")} />
             <div className="box__botoes">
             <input type="submit" value="Pesquisar" className="botao__input"/>
-            <input onClick={refresh} type="reset" value="Limpar" className="botao__input"/>
+            <input onClick={() => setProdutos([])} type="reset" value="Limpar" className="botao__input"/>
             </div>
           </div>
         </form>

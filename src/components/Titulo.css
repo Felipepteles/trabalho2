@@ -1,3 +1,7 @@
+header {
+  margin-bottom: 5rem;
+}
+
 .cabecalho {
   background-image: url("/wave.svg");
   background-repeat: no-repeat;
@@ -7,12 +11,13 @@
   display: flex;
   align-items: baseline;
   justify-content: space-between;
+  padding: 20px 0;
   box-shadow: 
-  rgba(0, 0, 0, 0.25) 267px 40px 55px, 
-  rgba(0, 0, 0, 0.12) 267px 10px 40px, 
-  rgba(0, 0, 0, 0.12) 267px 4px 6px, 
-  rgba(0, 0, 0, 0.17) 267px 12px 13px, 
-  rgba(0, 0, 0, 0.09) 267px -3px 5px;
+  rgba(0, 0, 0, 0.25) 405px 40px 55px, 
+  rgba(0, 0, 0, 0.12) 405px 10px 40px, 
+  rgba(0, 0, 0, 0.12) 405px 4px 6px, 
+  rgba(0, 0, 0, 0.17) 405px 12px 13px, 
+  rgba(0, 0, 0, 0.09) 405px -3px 5px;
 }
 
 .cabecalho__hero {
@@ -22,14 +27,18 @@
   align-items: center;
 }
 
-.cabecalho__hero>img {}
-
-.cabecalho__imagem {}
-
-.cabecalho__titulo {
+.cabecalho__titulo>h1 {
   color: #ef0e90;
   font-weight: bold;
-  font-size: 14px;
+  font-family: "Great Vibes", "cursive";
+  font-size: 5rem;
+}
+
+.cabecalho__titulo>h2 {
+  font-family: "Great Vibes", "cursive";
+  color: #ef0e90;
+  margin-top: 1rem;
+  font-size: 2rem;
 }
 
 .cabecalho__links {
@@ -40,9 +49,19 @@
 }
 
 .links {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: .2rem;
   color: white;
   cursor: pointer;
   text-decoration: none;
+  align-items: center;
+}
+
+.links>img {
+  width: 2rem;
+  height: 2rem;
+  justify-content: center;
 }
 
 .links:hover {

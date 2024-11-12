@@ -8,10 +8,10 @@
 
 .grid__item{
   display: flex;
-  border: 2px solid #4d4d4d;
   border-radius: 8px;
   padding: 10px;
   gap: 20px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
 .grid__foto{
@@ -22,29 +22,32 @@
 .grid__foto>img{
   width: 300px;
   height: 300px;
-
 }
 
 .grid__texto{
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
   gap: 35px;
   margin-top: 10px;
 }
 .grid__texto>h3{
   font-size: 25px;
   font-weight: bold;
+  padding: 0 40px 0 0;
 }
 .grid__texto>h4{
   font-size: 14px;
   font-weight: 100;
+  text-align: justify;
+  padding: 0 40px 0 0;
 }
 .grid__texto>h5{
   font-size: 18px;
   font-weight: bold;
   color: green;
 }
-.grid__texto>button{
+.grid__botoes>button{
   background-color: #ef0e90;
   color: white;
   border: 0;
@@ -54,4 +57,15 @@
   cursor: pointer;
   padding: 10px;
   width: 80px;
+}
+.grid__botoes{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.like__texto {
+  font-size: 1rem;
+  color: #ef0e90;
+  font-weight: lighter;
 }

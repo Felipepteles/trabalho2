@@ -5,7 +5,7 @@ import { Modal } from 'react-responsive-modal';
 import { Titulo } from './components/Titulo';
 import { Produto } from './components/Produto';
 import { NovoProduto } from './components/NovoProduto';
-
+import  produtosIniciais from "./produtosIniciais.json";
 
 function App() {
   const [produtos, setProdutos] = useState([])
@@ -15,6 +15,8 @@ function App() {
     if (localStorage.getItem("produtos")) {
       const produtos2 = JSON.parse(localStorage.getItem("produtos"))
       setProdutos(produtos2)
+    }else{
+      setProdutos(produtosIniciais)
     }
   },[])
 
@@ -31,7 +33,7 @@ function App() {
       <Titulo />
       <main>
         <div className='main'>
-          <h2>Cadastro de Produtos</h2>
+          <h2>Produtos</h2>
           <button onClick={abrirForm}>Adicionar</button>
         </div>
         <div className='grid__geral'>

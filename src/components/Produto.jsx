@@ -1,20 +1,28 @@
+import { Like } from './Like'
 import './Produto.css'
+import { FaRegThumbsUp } from "react-icons/fa";
+import { FaRegThumbsDown } from "react-icons/fa";
 
-export function Produto({ produto, produtos, setProduto }) {
 
-  function avaliaProduto() {
-    const nota = Number(prompt(`Nota para o Produto ${produto.nome}`))
-    if (nota < 1 || nota > 5 || isNaN(nota)) {
-      alert("Informe uma nota de 1 a 5")
-      return
-    }
+export function Produto({ produto, produtos, setProdutos }) {
+
+  function gostei() {
     const produtos2 = [...produtos]
     const index = produtos2.findIndex(x => x.nome == produto.nome)
-    produtos2[index].nota = nota
-    setProduto(produtos2)
+    produtos2[index].like++
+    setProdutos(produtos2)
     localStorage.setItem("produtos", JSON.stringify(produtos2))
-    alert("Ok! Produto Avaliado")
   }
+
+
+  function naoGostei() {
+    const produtos2 = [...produtos]
+    const index = produtos2.findIndex(x => x.nome == produto.nome)
+    produtos2[index].dislike++
+    setProdutos(produtos2)
+    localStorage.setItem("produtos", JSON.stringify(produtos2))
+  }
+
   return (
     <>
       <div className='grid__geral'>
@@ -26,7 +34,20 @@ export function Produto({ produto, produtos, setProduto }) {
             <h3>{produto.nome}</h3>
             <h4>{produto.descricao}</h4>
             <h5>R${produto.preco}</h5>
-            <button onClick={avaliaProduto}>Avaliar</button>
+            <div className='grid__botoes'>
+              {produto.like > 0 &&
+                <div>
+                  <h2 className='like__texto'>{produto.like}</h2>
+                </div>
+              }
+              <button onClick={gostei}><FaRegThumbsUp /></button>
+              <button onClick={naoGostei}><FaRegThumbsDown /></button>
+              {produto.dislike > 0 &&
+                <div>
+                  <h2 className='like__texto'>{produto.dislike}</h2>
+                </div>
+              }
+            </div>
           </div>
         </div>
       </div>

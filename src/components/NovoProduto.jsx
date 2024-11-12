@@ -9,7 +9,8 @@ export function NovoProduto({produtos, setProdutos}){
       foto: data.foto,
       preco: data.preco,
       descricao: data.descricao,
-      nota: 0
+      like: 0,
+      dislike: 0
     }
     const produtos2 = [novo, ...produtos]
     setProdutos(produtos2)
@@ -40,10 +41,6 @@ export function NovoProduto({produtos, setProdutos}){
       <div className="formulario">
         <label htmlFor="descricao">Descrição: </label>
         <textarea id="descricao" required rows={3} {...register("descricao")}></textarea>
-      </div>
-      <div className="formulario">
-        <label htmlFor="nota">Avaliação: </label>
-        <input type="number" id="nota" required {...register("nota")}/>
       </div>
       <div className="botao">
         <input type="submit" value="Incluir" />
