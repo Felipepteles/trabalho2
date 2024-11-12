@@ -1,0 +1,28 @@
+.box__pesquisa {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  gap: 20px;
+  margin-left: 25px;
+}
+
+.input__busca {
+  width: 150px;
+}
+
+.botao__input {
+  background-color: #ef0e90;
+  color: white;
+  border: 0;
+  border-radius: 12px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 10px;
+  width: 100px;
+}
+
+.box__botoes{
+  display: flex;
+  gap: 20px;
+}

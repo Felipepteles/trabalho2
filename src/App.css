@@ -1,0 +1,35 @@
+* {
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 2;
+}
+
+/* #ef0e90 */
+.main {
+  margin: 35px 35px 0 35px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main>button {
+  background-color: #ef0e90;
+  color: white;
+  border: 0;
+  border-radius: 12px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.main>h2 {
+  color: #ef0e90;
+}
+
+.grid__geral{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 25px;
+  row-gap: 25px;
+  padding: 10px;
+}

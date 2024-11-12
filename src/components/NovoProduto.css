@@ -1,0 +1,42 @@
+form{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 10px;
+}
+
+form>h2{
+  font-size: 30px;
+  font-weight: bold;
+  color: #ef0e90;
+}
+label{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+input{
+  width: 100%;
+}
+
+textarea{
+  width: 100%;
+}
+
+.botao{
+  display: inline-flex;
+  margin: 10px 0;
+  gap: 10px;
+}
+
+.botao input{
+  background-color: #ef0e90;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: .3rem;
+  
+}

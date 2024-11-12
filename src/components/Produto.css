@@ -1,0 +1,57 @@
+.grid__geral{
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 30px;
+  row-gap: 30px;
+  column-gap: 30px;
+}
+
+.grid__item{
+  display: flex;
+  border: 2px solid #4d4d4d;
+  border-radius: 8px;
+  padding: 10px;
+  gap: 20px;
+}
+
+.grid__foto{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.grid__foto>img{
+  width: 300px;
+  height: 300px;
+
+}
+
+.grid__texto{
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  margin-top: 10px;
+}
+.grid__texto>h3{
+  font-size: 25px;
+  font-weight: bold;
+}
+.grid__texto>h4{
+  font-size: 14px;
+  font-weight: 100;
+}
+.grid__texto>h5{
+  font-size: 18px;
+  font-weight: bold;
+  color: green;
+}
+.grid__texto>button{
+  background-color: #ef0e90;
+  color: white;
+  border: 0;
+  border-radius: 12px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 10px;
+  width: 80px;
+}

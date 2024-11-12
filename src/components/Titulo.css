@@ -1,0 +1,50 @@
+.cabecalho {
+  background-image: url("/wave.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 0px 0px 0px 0px;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  box-shadow: 
+  rgba(0, 0, 0, 0.25) 267px 40px 55px, 
+  rgba(0, 0, 0, 0.12) 267px 10px 40px, 
+  rgba(0, 0, 0, 0.12) 267px 4px 6px, 
+  rgba(0, 0, 0, 0.17) 267px 12px 13px, 
+  rgba(0, 0, 0, 0.09) 267px -3px 5px;
+}
+
+.cabecalho__hero {
+  display: flex;
+  margin: 0 60px;
+  gap: 40px;
+  align-items: center;
+}
+
+.cabecalho__hero>img {}
+
+.cabecalho__imagem {}
+
+.cabecalho__titulo {
+  color: #ef0e90;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.cabecalho__links {
+  display: flex;
+  gap: 20px;
+  font-size: 18px;
+  margin: 0 40px;
+}
+
+.links {
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.links:hover {
+  text-decoration: underline;
+}
