@@ -3,7 +3,7 @@
   flex-direction: column;
   width: 250px;
   gap: 20px;
-  margin-left: 25px;
+  margin-left: 45px;
 }
 
 .input__busca {
@@ -25,4 +25,10 @@
 .box__botoes{
   display: flex;
   gap: 20px;
+}
+
+.box__pesquisa>input{
+  padding: 5px;
+  border-radius: 8px;
+  width: 200px;
 }

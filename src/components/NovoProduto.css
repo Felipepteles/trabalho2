@@ -1,35 +1,36 @@
-form{
+form {
   display: flex;
   flex-direction: column;
-  padding: 10px;
+  padding: 20px;
   gap: 10px;
 }
 
-form>h2{
+form>h2 {
   font-size: 30px;
   font-weight: bold;
   color: #ef0e90;
 }
-label{
+
+label {
   font-size: 20px;
   font-weight: bold;
 }
 
-input{
+input {
   width: 100%;
 }
 
-textarea{
+textarea {
   width: 100%;
 }
 
-.botao{
+.botao {
   display: inline-flex;
   margin: 10px 0;
   gap: 10px;
 }
 
-.botao input{
+.botao>input {
   background-color: #ef0e90;
   color: #fff;
   border: none;
@@ -37,6 +38,12 @@ textarea{
   font-size: 14px;
   font-weight: bold;
   cursor: pointer;
-  padding: .3rem;
-  
+  padding: 10px 0;
 }
+
+.formulario>input, .formulario>textarea {
+  border-radius: 8px;
+  padding: 5px;
+}
+
+

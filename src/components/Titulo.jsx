@@ -14,8 +14,8 @@ export function Titulo() {
           </div>
         </div>
         <div className="cabecalho__links">
-          <p><Link to="/" className="links"><p>Home</p><img src="./home.svg" alt="" /></Link></p>
-          <p><Link to="/pesquisa" className="links"><p>Pesquisa</p><img src="./lupa.svg" alt="" /></Link></p>
+          <p><Link to="/" className="links">Home<img src="./home.svg" alt="" /></Link></p>
+          <p><Link to="/pesquisa" className="links">Pesquisa<img src="./lupa.svg" alt="" /></Link></p>
         </div>
       </div>
     </header>
